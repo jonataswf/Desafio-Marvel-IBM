@@ -38,16 +38,6 @@ Após a população das tabelas, existe as requisições do CRUD dentro do Postm
 
 
 
-### Bugs encontrados
-
-1. Toda vez que executa o programa e inseri dados nas tabelas, a ordem dos ids primários são geradas automaticamente na ordem correta (1,2,3), porém se parar a aplicação no sistema intellij e for inserir dados na mesma tabela novamente, o id ao invés de seguir a ordem começando do 4 pula para o numero 33.
-
-##### Possível causa:
-
-Pode ser causado por alguma configuração errada dentro do arquivo  application.properties que se encontra dentro do pacote resources.
-
-
-
 ### Observações
 
 ##### To Do: 
