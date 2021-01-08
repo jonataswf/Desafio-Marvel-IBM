@@ -18,7 +18,7 @@ public class HeroiService {
     HeroiValidate heroiValidate;
 
     public Heroi save(Heroi heroi) {
-//        heroiValidate.limitFiveHeroByRevista();
+//        heroiValidate.limitFiveHeroiByRevista();
         return heroiPersistence.save(heroi);
     }
 

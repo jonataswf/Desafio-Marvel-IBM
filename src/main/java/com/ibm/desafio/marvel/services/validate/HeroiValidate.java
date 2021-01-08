@@ -25,9 +25,11 @@ public class HeroiValidate extends Messages {
     }
 
 //    public void limitFiveHeroiByRevista() {
-//        List<HeroiEntity> herois = heroiRepository.findByRevista_Id();
-//        if (herois.size() > 5) {
-//            throw new RuntimeException("teste");
+//        List<HeroiEntity> heroiEntities = heroiRepository.findAll();
+//        for (HeroiEntity i : heroiEntities) {
+//            if (i.getRevista().getId().toString().) {
+//                throw new RuntimeException("teste");
+//            }
 //        }
 //    }
 }
