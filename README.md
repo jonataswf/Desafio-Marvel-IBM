@@ -12,7 +12,7 @@
 
 * Pasta Desafio: Pasta que contém o ppt do desafio.
 
-No projeto foi instalado também o Swagger que pode ser acessado através deste [link](https://github.com/user/repo/blob/branch/other_file.md) após a execução da api no intellij.
+No projeto foi instalado também o Swagger que pode ser acessado através deste [link](http://localhost:8080/swagger-ui.html) após a execução da api no intellij.
 
 
 
