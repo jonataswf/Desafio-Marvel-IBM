@@ -24,12 +24,12 @@ public class CriadorController {
         return criadorService.findAll();
     }
 
-    @GetMapping("/find/id/{id}")
+    @GetMapping("/find/{id}")
     public Criador findById(@PathVariable(name = "id") Long id) {
         return criadorService.findById(id);
     }
 
-    @DeleteMapping("/delete/id/{id}")
+    @DeleteMapping("/delete/{id}")
     public String deleteById(@PathVariable(name = "id") Long id) {
         return criadorService.deleteById(id);
     }

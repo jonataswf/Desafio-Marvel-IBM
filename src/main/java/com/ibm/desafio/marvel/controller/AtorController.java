@@ -25,12 +25,12 @@ public class AtorController {
         return atorService.findAll();
     }
 
-    @GetMapping("/find/id/{id}")
+    @GetMapping("/find/{id}")
     public Ator findById(@PathVariable(name = "id") Long id) {
         return atorService.findById(id);
     }
 
-    @DeleteMapping("/delete/id/{id}")
+    @DeleteMapping("/delete/{id}")
     public String deleteById(@PathVariable(name = "id") Long id) {
         return atorService.deleteById(id);
     }

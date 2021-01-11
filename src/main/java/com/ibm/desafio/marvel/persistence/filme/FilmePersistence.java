@@ -1,7 +1,6 @@
 package com.ibm.desafio.marvel.persistence.filme;
 
 import com.ibm.desafio.marvel.entity.FilmeEntity;
-import com.ibm.desafio.marvel.entity.RevistaEntity;
 import com.ibm.desafio.marvel.messages.Messages;
 import com.ibm.desafio.marvel.model.Filme;
 import com.ibm.desafio.marvel.parse.FilmeParser;

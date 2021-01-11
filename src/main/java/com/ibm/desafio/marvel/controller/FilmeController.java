@@ -24,12 +24,12 @@ public class FilmeController {
         return filmeService.findAll();
     }
 
-    @GetMapping("/find/id/{id}")
+    @GetMapping("/find/{id}")
     public Filme findById(@PathVariable(name = "id") Long id) {
         return filmeService.findById(id);
     }
 
-    @DeleteMapping("/delete/id/{id}")
+    @DeleteMapping("/delete/{id}")
     public String deleteById(@PathVariable(name = "id") Long id) {
         return filmeService.deleteById(id);
     }

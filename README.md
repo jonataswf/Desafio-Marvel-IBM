@@ -37,14 +37,3 @@ Após a população das tabelas, existe as requisições do CRUD dentro do Postm
 	* Update: Atualiza o conteúdo filtrado pelo ID;
 
 
-
-### Observações
-
-##### To Do: 
-
-Não consegui fazer algumas lógicas para as regras de negócios para limitar a 5, precisa terminar.
-
-1. Limitar a participação de 5 heróis por filmes.
-2. Limitar a participação de 5 heróis por revistas.
-3. Limitar a quantidade de poder que cada herói deve possuir em 5.
-4. Limitar a quantidade de conteúdo que cada criador deve possuir, limitar em 5 (filmes,revistas ou heróis)

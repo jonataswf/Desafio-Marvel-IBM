@@ -18,6 +18,7 @@ public class PoderService {
     PoderValidate poderValidate;
 
     public Poder save(Poder poder) {
+        poderValidate.validateIdHeroLessEqualThan5(poder.getHero());
         return poderPersistence.save(poder);
     }
 

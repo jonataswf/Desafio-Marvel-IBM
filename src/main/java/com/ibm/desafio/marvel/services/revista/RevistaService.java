@@ -2,6 +2,7 @@ package com.ibm.desafio.marvel.services.revista;
 
 import com.ibm.desafio.marvel.model.Revista;
 import com.ibm.desafio.marvel.persistence.revista.RevistaPersistence;
+import com.ibm.desafio.marvel.services.validate.CriadorValidate;
 import com.ibm.desafio.marvel.services.validate.RevistaValidate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,8 +18,11 @@ public class RevistaService {
     @Autowired
     RevistaValidate revistaValidate;
 
+    @Autowired
+    CriadorValidate criadorValidate;
+
     public Revista save(Revista revista) {
-        revistaValidate.validateRepeatedIdCriador(revista.getCriador());
+        criadorValidate.validateAllCreationsOfCreatorLimtedBy5(revista.getCriador());
         return revistaPersistence.save(revista);
     }
 
@@ -42,6 +46,7 @@ public class RevistaService {
 
     public Revista updateById(Long id, Revista revista) {
         revistaValidate.validateId(id);
+        criadorValidate.validateAllCreationsOfCreatorLimtedBy5(revista.getCriador());
         return revistaPersistence.updateById(id, revista);
     }
 }

@@ -69,7 +69,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/ator/find/id/2",
+							"raw": "http://localhost:8080/marvel/ator/find/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -79,7 +79,6 @@
 								"marvel",
 								"ator",
 								"find",
-								"id",
 								"2"
 							]
 						}
@@ -92,7 +91,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/ator/delete/id/2",
+							"raw": "http://localhost:8080/marvel/ator/delete/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -102,7 +101,6 @@
 								"marvel",
 								"ator",
 								"delete",
-								"id",
 								"2"
 							]
 						}
@@ -228,7 +226,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/criador/find/id/2",
+							"raw": "http://localhost:8080/marvel/criador/find/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -238,7 +236,6 @@
 								"marvel",
 								"criador",
 								"find",
-								"id",
 								"2"
 							]
 						}
@@ -251,7 +248,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/criador/delete/id/2",
+							"raw": "http://localhost:8080/marvel/criador/delete/3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -261,8 +258,7 @@
 								"marvel",
 								"criador",
 								"delete",
-								"id",
-								"2"
+								"3"
 							]
 						}
 					},
@@ -384,7 +380,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/heroi/find/id/2",
+							"raw": "http://localhost:8080/marvel/heroi/find/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -394,7 +390,6 @@
 								"marvel",
 								"heroi",
 								"find",
-								"id",
 								"2"
 							]
 						}
@@ -407,7 +402,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/heroi/delete/id/3",
+							"raw": "http://localhost:8080/marvel/heroi/delete/3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -417,7 +412,6 @@
 								"marvel",
 								"heroi",
 								"delete",
-								"id",
 								"3"
 							]
 						}
@@ -540,7 +534,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/poder/find/id/3",
+							"raw": "http://localhost:8080/marvel/poder/find/3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -550,7 +544,6 @@
 								"marvel",
 								"poder",
 								"find",
-								"id",
 								"3"
 							]
 						}
@@ -563,7 +556,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/poder/delete/id/5",
+							"raw": "http://localhost:8080/marvel/poder/delete/5",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -573,7 +566,6 @@
 								"marvel",
 								"poder",
 								"delete",
-								"id",
 								"5"
 							]
 						}
@@ -699,7 +691,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/filme/find/id/2",
+							"raw": "http://localhost:8080/marvel/filme/find/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -709,7 +701,6 @@
 								"marvel",
 								"filme",
 								"find",
-								"id",
 								"2"
 							]
 						}
@@ -722,7 +713,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/filme/delete/id/3",
+							"raw": "http://localhost:8080/marvel/filme/delete/3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -732,7 +723,6 @@
 								"marvel",
 								"filme",
 								"delete",
-								"id",
 								"3"
 							]
 						}
@@ -858,7 +848,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/revista/find/id/2",
+							"raw": "http://localhost:8080/marvel/revista/find/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -868,7 +858,6 @@
 								"marvel",
 								"revista",
 								"find",
-								"id",
 								"2"
 							]
 						}
@@ -881,7 +870,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/marvel/revista/delete/id/2",
+							"raw": "http://localhost:8080/marvel/revista/delete/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -891,7 +880,6 @@
 								"marvel",
 								"revista",
 								"delete",
-								"id",
 								"2"
 							]
 						}

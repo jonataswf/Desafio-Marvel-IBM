@@ -24,12 +24,12 @@ public class HeroiController {
         return heroiService.findAll();
     }
 
-    @GetMapping("/find/id/{id}")
+    @GetMapping("/find/{id}")
     public Heroi findById(@PathVariable(name = "id") Long id) {
         return heroiService.findById(id);
     }
 
-    @DeleteMapping("/delete/id/{id}")
+    @DeleteMapping("/delete/{id}")
     public String deleteById(@PathVariable(name = "id") Long id) {
         return heroiService.deleteById(id);
     }

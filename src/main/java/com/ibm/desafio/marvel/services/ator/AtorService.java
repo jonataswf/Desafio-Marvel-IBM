@@ -42,6 +42,7 @@ public class AtorService {
 
     public Ator updateById(Long id, Ator ator) {
         atorValidate.validateId(id);
+        atorValidate.validateRepeatedIdHero(ator.getHero());
         return atorPersistence.updateById(id, ator);
     }
 }

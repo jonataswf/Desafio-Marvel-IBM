@@ -24,12 +24,12 @@ public class RevistaController {
         return revistaService.findAll();
     }
 
-    @GetMapping("/find/id/{id}")
+    @GetMapping("/find/{id}")
     public Revista findById(@PathVariable(name = "id") Long id) {
         return revistaService.findById(id);
     }
 
-    @DeleteMapping("/delete/id/{id}")
+    @DeleteMapping("/delete/{id}")
     public String deleteById(@PathVariable(name = "id") Long id) {
         return revistaService.deleteById(id);
     }

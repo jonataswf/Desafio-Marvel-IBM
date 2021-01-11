@@ -30,7 +30,7 @@ public class AtorValidate extends Messages {
         for (AtorEntity i : atorEntities) {
             Ator ator = atorParser.parse(i);
             if (ator.getHero().equals(id)) {
-                throw new RuntimeException(id + FK_HERO_ID);
+                throw new RuntimeException(HEROI_ID + id + HEROI_ATRIBUIDO);
             }
         }
     }
